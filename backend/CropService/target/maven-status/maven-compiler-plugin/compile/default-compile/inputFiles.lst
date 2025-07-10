@@ -1,0 +1,10 @@
+D:\Crop_Deal\CropService\src\main\java\com\crop\config\SwaggerConfig.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\controller\CropController.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\CropServiceApplication.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\feign\CropDealer.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\feign\CropInterface.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\model\Crop.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\model\Review.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\repo\CropRepo.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\repo\ReviewRepo.java
+D:\Crop_Deal\CropService\src\main\java\com\crop\service\CropService.java

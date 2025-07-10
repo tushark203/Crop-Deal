@@ -1,0 +1,120 @@
+package com.crop.model;
+
+import java.time.LocalDateTime;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Crop {
+   @Id
+   @GeneratedValue(strategy=GenerationType.IDENTITY)	
+   private int crop_id ;
+   private int farmer_id;
+   private String crop_name;
+   private String crop_type;
+   private Double quantity_in_kg;
+   private Double quantity_available;
+   private Double quantity_booked;
+   private Double price_per_kg;
+   private String status = "Available";
+   private LocalDateTime postedAt = LocalDateTime.now();
+   
+   
+//	public int getCrop_id() {
+//		return crop_id;
+//	}
+//	public void setCrop_id(int crop_id) {
+//		this.crop_id = crop_id;
+//	}
+//	public int getFarmer_id() {
+//		return farmer_id;
+//	}
+//	public void setFarmer_id(int farmer_id) {
+//		this.farmer_id = farmer_id;
+//	}
+//	public String getCrop_name() {
+//		return crop_name;
+//	}
+//	public void setCrop_name(String crop_name) {
+//		this.crop_name = crop_name;
+//	}
+//	public String getCrop_type() {
+//		return crop_type;
+//	}
+//	public void setCrop_type(String crop_type) {
+//		this.crop_type = crop_type;
+//	}
+//	
+//	public String getStatus() {
+//		return status;
+//	}
+//	public void setStatus(String status) {
+//		this.status = status;
+//	}
+//	public LocalDateTime getPostedAt() {
+//		return postedAt;
+//	}
+//	public void setPostedAt(LocalDateTime postedAt) {
+//		this.postedAt = postedAt;
+//	}
+//   public Double getQuantity_in_kg() {
+//		return quantity_in_kg;
+//	}
+//	public void setQuantity_in_kg(Double quantity_in_kg) {
+//		this.quantity_in_kg = quantity_in_kg;
+//	}
+//	public Double getQuantity_available() {
+//		return quantity_available;
+//	}
+//	public void setQuantity_available(Double quantity_available) {
+//		this.quantity_available = quantity_available;
+//	}
+//	public Double getQuantity_booked() {
+//		return quantity_booked;
+//	}
+//	public void setQuantity_booked(Double quantity_booked) {
+//		this.quantity_booked = quantity_booked;
+//	}
+//	public Double getPrice_per_kg() {
+//		return price_per_kg;
+//	}
+//	public void setPrice_per_kg(Double price_per_kg) {
+//		this.price_per_kg = price_per_kg;
+//	}
+//	
+//	
+//	
+//	public Crop(int crop_id, int farmer_id,  String crop_name, String crop_type, Double quantity_in_kg,
+//			Double quantity_available, Double quantity_booked, Double price_per_kg, String status,
+//			LocalDateTime postedAt) {
+//		super();
+//		this.crop_id = crop_id;
+//		this.farmer_id = farmer_id;
+//		this.crop_name = crop_name;
+//		this.crop_type = crop_type;
+//		this.quantity_in_kg = quantity_in_kg;
+//		this.quantity_available = quantity_available;
+//		this.quantity_booked = quantity_booked;
+//		this.price_per_kg = price_per_kg;
+//		this.status = status;
+//		this.postedAt = postedAt;
+//	}
+//	public Crop() {
+//	
+//		
+//	}
+   
+   
+	
+	
+
+}
